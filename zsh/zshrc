@@ -107,7 +107,7 @@ export LC_COLLATE=C
 # >>2
 # Set grepoptions <<2
 #-------------------------------------------------------------------------------
-export GREP_OPTIONS='--color=auto'
+#export GREP_OPTIONS='--color=auto'
 # >>2
 # Use the correct ctags <<2
 #-------------------------------------------------------------------------------
@@ -217,12 +217,13 @@ done
 # >>1
 
 # Source Syntaxhighlighting <<1
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # >>1
 
 # Export Go Path <<1
 export GOPATH=~/Projects/go
 export PATH=$PATH:$GOPATH/bin
 # >>1
-
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 # EOF
