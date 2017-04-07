@@ -1,1 +1,0 @@
-"'leafgarland/typescript-vim'

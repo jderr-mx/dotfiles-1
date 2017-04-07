@@ -6,6 +6,7 @@ vim/plugged/
 vim/autoload/
 .DS_Store
 !custom-configs/custom-snips/.git-keep.sh
+custom-configs/*
 config/configstore/*
 tags
 config
