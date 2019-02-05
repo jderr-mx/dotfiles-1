@@ -14,3 +14,5 @@
     email = john.derr@gmail.com
 [push]
     default = matching
+[url "https://"]
+	insteadOf = git://

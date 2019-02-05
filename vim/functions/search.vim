@@ -5,12 +5,12 @@
 "                results are displayed in the quickfix window.
 "===============================================================================
 if executable('ag')
-    set grepprg=ag\ --nogroup\ --nocolor\ --column\ --ignore-dir\ node_modules\ --ignore-dir\ bower_components
+    set grepprg=ag\ -s\ --nogroup\ --nocolor\ --column\ --ignore-dir\ node_modules\ --ignore-dir\ bower_components
     set grepformat=%f:%l:%c:%m
 endif
 
 function! TheSilverSearcher()
-python << endPython
+python3 << endPython
 
 import vim
 
