@@ -47,3 +47,8 @@ alias .....='cd ../../../..'
 alias ls='ls --color'
 # Empty the trash folder that is created when you delete things as root
 alias root_trash='sudo bash -c "exec rm -r /root/.local/share/Trash/{files,info}/*"'
+export PATH='/usr/local/bin:/Users/john/.nvm/versions/node/v8.9.0//bin:/Users/john/.rbenv/shims:/Users/john/.rbenv/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/john/.nvm/versions/node/v8.9.0//bin:/Users/john/.rbenv/shims:/Users/john/.rbenv/bin:/Users/john/Projects/go/bin:/Users/john/Projects/go/bin'\n
+export PATH='/usr/local/bin:/Users/john/.nvm/versions/node/v8.9.0//bin:/Users/john/.rbenv/shims:/Users/john/.rbenv/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/john/.nvm/versions/node/v8.9.0//bin:/Users/john/.rbenv/shims:/Users/john/.rbenv/bin:/Users/john/Projects/go/bin:/Users/john/Projects/go/bin'\n
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
